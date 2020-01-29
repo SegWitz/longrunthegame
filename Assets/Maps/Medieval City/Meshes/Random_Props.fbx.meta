@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: c10b2a69e098e1c41a21bbef893b0bda
+timeCreated: 1479583660
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Apples_A
+    100002: Apples_B
+    100004: Bananas_A
+    100006: Bananas_B
+    100008: Bench_A1
+    100010: Bench_A2
+    100012: Bench_A3
+    100014: Bench_A4
+    100016: Bench_B
+    100018: Bucket_A
+    100020: Bucket_B
+    100022: City_Gate
+    100024: City_Wall
+    100026: Clothing_Rack
+    100028: Container_A
+    100030: Container_B
+    100032: Door_1
+    100034: Door_1 1
+    100036: Door_2
+    100038: Door_2 1
+    100040: Fountain
+    100042: Gate_Doors
+    100044: Gate_Doors_Back
+    100046: Gate_Doors_Front
+    100048: Ladder1
+    100050: Ladder2
+    100052: Ladder3
+    100054: Ladder4
+    100056: Oranges_A
+    100058: Oranges_B
+    100060: Random_Props
+    100062: //RootNode
+    100064: Refined_Tower
+    100066: Strawberries_A
+    100068: Strawberries_B
+    100070: Tomatoes_A
+    100072: Tomatoes_B
+    100074: Watermelon_A
+    100076: Watermelon_B
+    100078: Wheel_A
+    100080: Wheel_B
+    400000: Apples_A
+    400002: Apples_B
+    400004: Bananas_A
+    400006: Bananas_B
+    400008: Bench_A1
+    400010: Bench_A2
+    400012: Bench_A3
+    400014: Bench_A4
+    400016: Bench_B
+    400018: Bucket_A
+    400020: Bucket_B
+    400022: City_Gate
+    400024: City_Wall
+    400026: Clothing_Rack
+    400028: Container_A
+    400030: Container_B
+    400032: Door_1
+    400034: Door_1 1
+    400036: Door_2
+    400038: Door_2 1
+    400040: Fountain
+    400042: Gate_Doors
+    400044: Gate_Doors_Back
+    400046: Gate_Doors_Front
+    400048: Ladder1
+    400050: Ladder2
+    400052: Ladder3
+    400054: Ladder4
+    400056: Oranges_A
+    400058: Oranges_B
+    400060: //RootNode
+    400062: Random_Props
+    400064: Refined_Tower
+    400066: Strawberries_A
+    400068: Strawberries_B
+    400070: Tomatoes_A
+    400072: Tomatoes_B
+    400074: Watermelon_A
+    400076: Watermelon_B
+    400078: Wheel_A
+    400080: Wheel_B
+    2300000: Apples_A
+    2300002: Apples_B
+    2300004: Bananas_A
+    2300006: Bananas_B
+    2300008: Bench_A1
+    2300010: Bench_A2
+    2300012: Bench_A3
+    2300014: Bench_A4
+    2300016: Bench_B
+    2300018: Bucket_A
+    2300020: Bucket_B
+    2300022: City_Gate
+    2300024: City_Wall
+    2300026: Clothing_Rack
+    2300028: Container_A
+    2300030: Container_B
+    2300032: Door_1
+    2300034: Door_1 1
+    2300036: Door_2
+    2300038: Door_2 1
+    2300040: Fountain
+    2300042: Ladder1
+    2300044: Ladder2
+    2300046: Ladder3
+    2300048: Ladder4
+    2300050: Oranges_A
+    2300052: Oranges_B
+    2300054: Refined_Tower
+    2300056: Strawberries_A
+    2300058: Strawberries_B
+    2300060: Tomatoes_A
+    2300062: Tomatoes_B
+    2300064: Watermelon_A
+    2300066: Watermelon_B
+    2300068: Wheel_A
+    2300070: Wheel_B
+    3300000: Apples_A
+    3300002: Apples_B
+    3300004: Bananas_A
+    3300006: Bananas_B
+    3300008: Bench_A1
+    3300010: Bench_A2
+    3300012: Bench_A3
+    3300014: Bench_A4
+    3300016: Bench_B
+    3300018: Bucket_A
+    3300020: Bucket_B
+    3300022: City_Gate
+    3300024: City_Wall
+    3300026: Clothing_Rack
+    3300028: Container_A
+    3300030: Container_B
+    3300032: Door_1
+    3300034: Door_1 1
+    3300036: Door_2
+    3300038: Door_2 1
+    3300040: Fountain
+    3300042: Ladder1
+    3300044: Ladder2
+    3300046: Ladder3
+    3300048: Ladder4
+    3300050: Oranges_A
+    3300052: Oranges_B
+    3300054: Refined_Tower
+    3300056: Strawberries_A
+    3300058: Strawberries_B
+    3300060: Tomatoes_A
+    3300062: Tomatoes_B
+    3300064: Watermelon_A
+    3300066: Watermelon_B
+    3300068: Wheel_A
+    3300070: Wheel_B
+    4300000: Container_A
+    4300002: Container_B
+    4300004: Clothing_Rack
+    4300006: Apples_A
+    4300008: Apples_B
+    4300010: Bananas_A
+    4300012: Bananas_B
+    4300014: Oranges_A
+    4300016: Oranges_B
+    4300018: Strawberries_A
+    4300020: Strawberries_B
+    4300022: Tomatoes_A
+    4300024: Tomatoes_B
+    4300026: Watermelon_A
+    4300028: Watermelon_B
+    4300030: Wheel_A
+    4300032: Wheel_B
+    4300034: Bucket_A
+    4300036: Bucket_B
+    4300038: Bench_A1
+    4300040: Bench_A4
+    4300042: Bench_A3
+    4300044: Bench_A2
+    4300046: Bench_B
+    4300048: Fountain
+    4300050: City_Gate
+    4300052: Door_1
+    4300054: Door_2
+    4300056: Door_1
+    4300058: Door_2
+    4300060: City_Wall
+    4300062: Refined_Tower
+    4300064: Ladder1
+    4300066: Ladder2
+    4300068: Ladder3
+    4300070: Ladder4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

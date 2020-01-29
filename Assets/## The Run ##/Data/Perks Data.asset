@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a90a9055d97f548b53d4afe7ad8408, type: 3}
+  m_Name: Perks Data
+  m_EditorClassIdentifier: 
+  _PerksData:
+  - ItemID: 0
+    ItemName: Biohazard Perk
+    ItemValue: 1000000
+    ItemSprite: {fileID: 21300000, guid: ebdeaeb50138f1e429d2802ae66dd255, type: 3}
+    PickupPrefab: {fileID: 1388867446459386, guid: 3c74f1cfe0af78146b2da77b339b2aae,
+      type: 2}
+    StLRewardLevel: 10
+    EmojiRewardLevel: 40
+  - ItemID: 1
+    ItemName: Coincidence Perk
+    ItemValue: 1500000
+    ItemSprite: {fileID: 21300000, guid: aa26a678e08f1174d8737f15cb3230f5, type: 3}
+    PickupPrefab: {fileID: 1188935667292932, guid: 21ef3d67ef01d1141be092a3de907f29,
+      type: 2}
+    StLRewardLevel: 15
+    EmojiRewardLevel: 65
+  - ItemID: 2
+    ItemName: Fire Perk
+    ItemValue: 1700000
+    ItemSprite: {fileID: 21300000, guid: bb1be5c5e7e0bf64faa605b878109aa0, type: 3}
+    PickupPrefab: {fileID: 1044059901261066, guid: 49efc95b0b44b3943a6aaa05a3cb9c37,
+      type: 2}
+    StLRewardLevel: 23
+    EmojiRewardLevel: 80
+  - ItemID: 3
+    ItemName: Lightning Perk
+    ItemValue: 1800000
+    ItemSprite: {fileID: 21300000, guid: 01e19b72a4b0b984da2367c802967cfb, type: 3}
+    PickupPrefab: {fileID: 1247117642489702, guid: c40b0fb611ce35e4ead99d31e0df18cb,
+      type: 2}
+    StLRewardLevel: 33
+    EmojiRewardLevel: 110
+  - ItemID: 4
+    ItemName: Skull Perk
+    ItemValue: 1900000
+    ItemSprite: {fileID: 21300000, guid: 8ba186a8f9da30440a87f11386f52263, type: 3}
+    PickupPrefab: {fileID: 1626500955414472, guid: a80d57557277cd14b9f25c104a16576e,
+      type: 2}
+    StLRewardLevel: 35
+    EmojiRewardLevel: 150
+  - ItemID: 5
+    ItemName: Protector Perk
+    ItemValue: 5000000
+    ItemSprite: {fileID: 21300000, guid: 5ab015e0d8fbb5e4fa1c52e902fe1b4d, type: 3}
+    PickupPrefab: {fileID: 1335288953562020, guid: da93e22907f4c334ca363a95b4e35aa3,
+      type: 2}
+    StLRewardLevel: 42
+    EmojiRewardLevel: 200
+  - ItemID: 6
+    ItemName: Radioactive Perk
+    ItemValue: 4300000
+    ItemSprite: {fileID: 21300000, guid: 189b430479e85e24b84fc5aa1c4cbbaf, type: 3}
+    PickupPrefab: {fileID: 1249363189324242, guid: ae8ae2023952e3b46b6144b3ee116f8b,
+      type: 2}
+    StLRewardLevel: 40
+    EmojiRewardLevel: 300

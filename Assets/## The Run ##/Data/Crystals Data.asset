@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd3591d81b8cf344b745a1b89855022, type: 3}
+  m_Name: Crystals Data
+  m_EditorClassIdentifier: 
+  _CrystalsData:
+  - ItemID: 0
+    ItemName: Madan Crystal
+    ItemValue: 10000
+    ItemSprite: {fileID: 21300000, guid: 15d96d9c269d7ab498347c526992300e, type: 3}
+    PickupPrefab: {fileID: 1920657001577116, guid: 6eb2b3c5496017b4b8e70d7b0bb3f687,
+      type: 2}
+  - ItemID: 1
+    ItemName: Bethor Crystal
+    ItemValue: 20000
+    ItemSprite: {fileID: 21300000, guid: 90a015b06f8efa04baa312bbf980b150, type: 3}
+    PickupPrefab: {fileID: 1524142523282796, guid: a0bb4404d44ae9e418b7ad9b998f75ff,
+      type: 2}
+  - ItemID: 2
+    ItemName: Zadkiel Crystal
+    ItemValue: 30000
+    ItemSprite: {fileID: 21300000, guid: 9334f745a216af742b5b44fcfc298fa8, type: 3}
+    PickupPrefab: {fileID: 1958547347724612, guid: 9bc15a4d2432d4648bc4149acb90c430,
+      type: 2}
+  - ItemID: 3
+    ItemName: Adnachiel Crystal
+    ItemValue: 40000
+    ItemSprite: {fileID: 21300000, guid: f4210b2198e62a543ba78bcc2649f291, type: 3}
+    PickupPrefab: {fileID: 1209428999383506, guid: d69d62acbaaef0b4ab4a9cf52c0c021e,
+      type: 2}
+  - ItemID: 4
+    ItemName: Galizur Crystal
+    ItemValue: 50000
+    ItemSprite: {fileID: 21300000, guid: e53c4173fba2e0846a63579ff25ce672, type: 3}
+    PickupPrefab: {fileID: 1022060856680152, guid: 615570542df1dfa4fa54919bae0b7be3,
+      type: 2}
+  - ItemID: 5
+    ItemName: Archon Crystal
+    ItemValue: 55000
+    ItemSprite: {fileID: 21300000, guid: 16c70f9bb35c6d740a8ddafb7b95c3a9, type: 3}
+    PickupPrefab: {fileID: 1198595241940742, guid: 2e53c93b06c38d346b3c6a9592c9fa6a,
+      type: 2}
+  - ItemID: 6
+    ItemName: Mihr Crystal
+    ItemValue: 60000
+    ItemSprite: {fileID: 21300000, guid: 418478ae5f5a02941942a2b538a774bb, type: 3}
+    PickupPrefab: {fileID: 1080128448440650, guid: e5f943f985f3879449c95bf77b8f6027,
+      type: 2}
+  - ItemID: 7
+    ItemName: Charoum Crystal
+    ItemValue: 65000
+    ItemSprite: {fileID: 21300000, guid: fe75112ec171f2648a9828d7d53d08a3, type: 3}
+    PickupPrefab: {fileID: 1599138816939286, guid: dd9f980cf297fad4abc29493baa2fbbb,
+      type: 2}
+  - ItemID: 8
+    ItemName: Abasdarhon Crystal
+    ItemValue: 68000
+    ItemSprite: {fileID: 21300000, guid: fd9ae4f006a9fa1429b165a22d5c1659, type: 3}
+    PickupPrefab: {fileID: 1916862528814996, guid: bed473f1c02a7d6428229bb7256f0e60,
+      type: 2}
+  - ItemID: 9
+    ItemName: Raphael Crystal
+    ItemValue: 72000
+    ItemSprite: {fileID: 21300000, guid: 5f644fec33d34394cb08ec884e5b418e, type: 3}
+    PickupPrefab: {fileID: 1352547792973662, guid: d84cb2d633139d44fa83d50b9ea7b9e6,
+      type: 2}
+  - ItemID: 10
+    ItemName: Maharaim Crystal
+    ItemValue: 73000
+    ItemSprite: {fileID: 21300000, guid: 388c05ceb954d514e9c429861cf01685, type: 3}
+    PickupPrefab: {fileID: 1413182638255910, guid: a0ba701020784364a89810809139eacf,
+      type: 2}
+  - ItemID: 11
+    ItemName: Vretiel Crystal
+    ItemValue: 74000
+    ItemSprite: {fileID: 21300000, guid: 7cf761ac35628694fafaf2a89f4037ef, type: 3}
+    PickupPrefab: {fileID: 1110148145408560, guid: 3deb70e931df5664a9b452a36f08d515,
+      type: 2}
+  - ItemID: 12
+    ItemName: Karles Crystal
+    ItemValue: 75000
+    ItemSprite: {fileID: 21300000, guid: a95507bf478240c49b5f11aaf7a463de, type: 3}
+    PickupPrefab: {fileID: 1242004288909724, guid: c4dee1a0687d5d14a89b63bba781dc13,
+      type: 2}
+  - ItemID: 13
+    ItemName: Gagiel Crystal
+    ItemValue: 76000
+    ItemSprite: {fileID: 21300000, guid: e9452d17055d4a542a1f94af36e359da, type: 3}
+    PickupPrefab: {fileID: 1315131334372672, guid: 2af2a22d8f847164daeb879aab0ec6b7,
+      type: 2}
+  - ItemID: 14
+    ItemName: Hadraniel Crystal
+    ItemValue: 77000
+    ItemSprite: {fileID: 21300000, guid: 2067a21c0733db640b31519918646806, type: 3}
+    PickupPrefab: {fileID: 1648010153470668, guid: 52577dd79ccc84f4f849a08044b868cd,
+      type: 2}
+  - ItemID: 15
+    ItemName: Sachiel Crystal
+    ItemValue: 78000
+    ItemSprite: {fileID: 21300000, guid: 805fce4ef468f09458492bb24bd16284, type: 3}
+    PickupPrefab: {fileID: 1548364883715564, guid: 6ff9f607d0f6f8f449469754bd0b5a6a,
+      type: 2}
+  - ItemID: 16
+    ItemName: Ophanim Crystal
+    ItemValue: 79000
+    ItemSprite: {fileID: 21300000, guid: be2e45d9921c6d249beff544df3b7b99, type: 3}
+    PickupPrefab: {fileID: 1201582232405896, guid: cd890e6e660fd42459a0f5020d60f175,
+      type: 2}
+  - ItemID: 17
+    ItemName: Yahoel Crystal
+    ItemValue: 80000
+    ItemSprite: {fileID: 21300000, guid: d4bedd8376334b24d9e7b325462c8778, type: 3}
+    PickupPrefab: {fileID: 1979268386318250, guid: 433c9a7804a2efa46ae3e37095ef1671,
+      type: 2}
+  - ItemID: 18
+    ItemName: Hayyel Crystal
+    ItemValue: 100000
+    ItemSprite: {fileID: 21300000, guid: 447f7ca20fe75ac439ddbb61c458a20b, type: 3}
+    PickupPrefab: {fileID: 1400498156932408, guid: b16b38ab27cba2547bc4521c6b5e6c44,
+      type: 2}
+  - ItemID: 19
+    ItemName: Rahariel Crystal
+    ItemValue: 101000
+    ItemSprite: {fileID: 21300000, guid: e91bae0c42150294d81beb7a40d1b311, type: 3}
+    PickupPrefab: {fileID: 1122674217031918, guid: 31407fd271248854f8ac5c86e12d76c1,
+      type: 2}
+  - ItemID: 20
+    ItemName: Verchiel Crystal
+    ItemValue: 110000
+    ItemSprite: {fileID: 21300000, guid: 4d88545d4b9472947965c5d6489e4d12, type: 3}
+    PickupPrefab: {fileID: 1684957935918390, guid: c632819e18bdbe844b3495012fa8a0a6,
+      type: 2}
+  - ItemID: 21
+    ItemName: Ruhiel Crystal
+    ItemValue: 120000
+    ItemSprite: {fileID: 21300000, guid: 42914a8a3c7563d499f2b956a6b3688d, type: 3}
+    PickupPrefab: {fileID: 1686202284306314, guid: a8bbacf56700f3a4eafa7a6e54decbb7,
+      type: 2}
+  - ItemID: 22
+    ItemName: Isda Crystal
+    ItemValue: 150000
+    ItemSprite: {fileID: 21300000, guid: 0508977c5e77bfb4d86355078082a56a, type: 3}
+    PickupPrefab: {fileID: 1965498456200824, guid: 1eefe4eeacba98548a1fdfea35b49605,
+      type: 2}
+  - ItemID: 23
+    ItemName: Ouriel Crystal
+    ItemValue: 200000
+    ItemSprite: {fileID: 21300000, guid: b77de28dbf152f74eafd2a29a019b25a, type: 3}
+    PickupPrefab: {fileID: 1720460562402306, guid: 2311986a592267046894e93c2cbc1128,
+      type: 2}
+  - ItemID: 24
+    ItemName: Sofiel Crystal
+    ItemValue: 210000
+    ItemSprite: {fileID: 21300000, guid: 6292606ede802a246be50b9048ecfb1b, type: 3}
+    PickupPrefab: {fileID: 1436188050823614, guid: 260e7166466c62747b99572844034bf4,
+      type: 2}
+  - ItemID: 25
+    ItemName: Naomi Crystal
+    ItemValue: 220000
+    ItemSprite: {fileID: 21300000, guid: 8a5c89edb574a6c42a56c6e5dcec5464, type: 3}
+    PickupPrefab: {fileID: 1824000421398048, guid: 2e45c5edc94ab114e90f437e464abb07,
+      type: 2}
+  - ItemID: 26
+    ItemName: Senyaza Crystal
+    ItemValue: 225000
+    ItemSprite: {fileID: 21300000, guid: f167c163199684b48ab97eb654a621c7, type: 3}
+    PickupPrefab: {fileID: 1717088410193530, guid: b58524f8a04e77e479fa1f41e2da786f,
+      type: 2}
+  - ItemID: 27
+    ItemName: Zarall Crystal
+    ItemValue: 238000
+    ItemSprite: {fileID: 21300000, guid: a650390a431704542b597f6282de9777, type: 3}
+    PickupPrefab: {fileID: 1444949847556552, guid: 8d256007d7146aa4e83fbb592b1fb873,
+      type: 2}
+  - ItemID: 28
+    ItemName: Felice Crystal
+    ItemValue: 243000
+    ItemSprite: {fileID: 21300000, guid: 83ca77f722c65144d964f96d5d48a39f, type: 3}
+    PickupPrefab: {fileID: 1999483236789026, guid: 6d0de5d2f396034429949f9e025e430d,
+      type: 2}
+  - ItemID: 29
+    ItemName: Leo Crystal
+    ItemValue: 250000
+    ItemSprite: {fileID: 21300000, guid: fe0de3f0a87db204d95d1459f275456a, type: 3}
+    PickupPrefab: {fileID: 1017859622825234, guid: 446e845005f403d489911e64f057653d,
+      type: 2}
+  - ItemID: 30
+    ItemName: Aralim Crystal
+    ItemValue: 300000
+    ItemSprite: {fileID: 21300000, guid: 0b0a51e9aae24d44eaffe247dd62b9a6, type: 3}
+    PickupPrefab: {fileID: 1072381594150528, guid: 57c6195f6a244ab43b54b1e79f86f731,
+      type: 2}
+  - ItemID: 31
+    ItemName: Phaleg Crystal
+    ItemValue: 310000
+    ItemSprite: {fileID: 21300000, guid: 39eb47200f5306f49abc474ef06cf633, type: 3}
+    PickupPrefab: {fileID: 1308498650296808, guid: 5644cb69df0e3254d990646ce4357844,
+      type: 2}
+  - ItemID: 32
+    ItemName: Jaoel Crystal
+    ItemValue: 320000
+    ItemSprite: {fileID: 21300000, guid: 0575c246ce27dcd41b75a58c9cf13f32, type: 3}
+    PickupPrefab: {fileID: 1410041399312770, guid: 4a5af529cc7d8b748b57f05b4ef4af72,
+      type: 2}
+  - ItemID: 33
+    ItemName: Purah Crystal
+    ItemValue: 330000
+    ItemSprite: {fileID: 21300000, guid: f43aafa141e914145aa7c02b5c2a75fa, type: 3}
+    PickupPrefab: {fileID: 1901272860931688, guid: 22fe861853b99db43a45285a1a9adee4,
+      type: 2}
+  - ItemID: 34
+    ItemName: Lailah Crystal
+    ItemValue: 340000
+    ItemSprite: {fileID: 21300000, guid: 2eb4ada3fe4a22a43905dd1045cf8d14, type: 3}
+    PickupPrefab: {fileID: 1760006864993122, guid: c5d85ea8c4b436348b0846efeff43120,
+      type: 2}
+  - ItemID: 35
+    ItemName: Ong Crystal
+    ItemValue: 350000
+    ItemSprite: {fileID: 21300000, guid: 4b72d855e40848d4f9024125e09b8288, type: 3}
+    PickupPrefab: {fileID: 1138940865137746, guid: aecb36a103d7d284a823932342369429,
+      type: 2}
+  - ItemID: 36
+    ItemName: Zuriel Crystal
+    ItemValue: 360000
+    ItemSprite: {fileID: 21300000, guid: 2204a92a3bc98794ea2389b8fb63fe12, type: 3}
+    PickupPrefab: {fileID: 1380602386822486, guid: 36dea0ac67d38d748badf38ee6b5c91f,
+      type: 2}
+  - ItemID: 37
+    ItemName: Domiel Crystal
+    ItemValue: 370000
+    ItemSprite: {fileID: 21300000, guid: b0fdac1ad322d154c82f55931e5898ec, type: 3}
+    PickupPrefab: {fileID: 1788051330770386, guid: f0c6ded3709281743b5c41b4c32b1e29,
+      type: 2}
+  - ItemID: 38
+    ItemName: Ybaviel Crystal
+    ItemValue: 380000
+    ItemSprite: {fileID: 21300000, guid: 635b05f51de67ba439b1886eceb98949, type: 3}
+    PickupPrefab: {fileID: 1556169354666582, guid: cbab10efcd78a154a94bdebec40f83b0,
+      type: 2}
+  - ItemID: 39
+    ItemName: Hanniah Crystal
+    ItemValue: 390000
+    ItemSprite: {fileID: 21300000, guid: 3c43c202668e04749ac5439165480430, type: 3}
+    PickupPrefab: {fileID: 1042841645382020, guid: 3de3f80ed62e89e489d4e99200b1c3fd,
+      type: 2}
+  - ItemID: 40
+    ItemName: Adoel Crystal
+    ItemValue: 400000
+    ItemSprite: {fileID: 21300000, guid: 7e567310504d423409fce4394dcdf2c4, type: 3}
+    PickupPrefab: {fileID: 1316564925235142, guid: d4439a053014f3f4ba4e2350faee9e23,
+      type: 2}
+  - ItemID: 41
+    ItemName: Mada Crystal
+    ItemValue: 500000
+    ItemSprite: {fileID: 21300000, guid: a9d9c48531b363e4684a41c168643159, type: 3}
+    PickupPrefab: {fileID: 1651533414049770, guid: df51363851d5cee4181b47a31ae81369,
+      type: 2}
+  - ItemID: 42
+    ItemName: Mastremi Crystal
+    ItemValue: 600000
+    ItemSprite: {fileID: 21300000, guid: ae647b1908684634eacbb19e2167f255, type: 3}
+    PickupPrefab: {fileID: 1831752382345286, guid: ca085f72a321170429253d285fdb8591,
+      type: 2}
+  - ItemID: 43
+    ItemName: Dumah Crystal
+    ItemValue: 700000
+    ItemSprite: {fileID: 21300000, guid: 24b58de72dbf1e64984f94f91c191fed, type: 3}
+    PickupPrefab: {fileID: 1211184996051562, guid: 395514a60fe7dae46a9e405e305fec36,
+      type: 2}
+  - ItemID: 44
+    ItemName: Gragiel Crystal
+    ItemValue: 800000
+    ItemSprite: {fileID: 21300000, guid: 4e09907f7b6b1f748bf70228804c1ce4, type: 3}
+    PickupPrefab: {fileID: 1329234305919506, guid: deda8ba1b552b984ab2e99f2823228e5,
+      type: 2}

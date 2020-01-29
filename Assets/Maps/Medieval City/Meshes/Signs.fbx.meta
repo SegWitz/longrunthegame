@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 34570e6a351a9f6488ba21f988e72d53
+timeCreated: 1479583817
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Animal_Shop_Sign_A
+    100002: Animal_Shop_Sign_B
+    100004: Blacksmith_Shop_Sign_A
+    100006: Blacksmith_Shop_Sign_B
+    100008: Food__Shop_Sign_A
+    100010: Food_Shop_Sign_B
+    100012: Resource_Shop_Sign_A
+    100014: Resource_Shop_Sign_B
+    100016: //RootNode
+    100018: Signs
+    100020: Tavern_Sign_A
+    100022: Tavern_Sign_B
+    100024: Weapons_Shop_Sign_A
+    100026: Weapons_Shop_Sign_B
+    400000: Animal_Shop_Sign_A
+    400002: Animal_Shop_Sign_B
+    400004: Blacksmith_Shop_Sign_A
+    400006: Blacksmith_Shop_Sign_B
+    400008: Food__Shop_Sign_A
+    400010: Food_Shop_Sign_B
+    400012: Resource_Shop_Sign_A
+    400014: Resource_Shop_Sign_B
+    400016: Signs
+    400018: //RootNode
+    400020: Tavern_Sign_A
+    400022: Tavern_Sign_B
+    400024: Weapons_Shop_Sign_A
+    400026: Weapons_Shop_Sign_B
+    2300000: Animal_Shop_Sign_A
+    2300002: Animal_Shop_Sign_B
+    2300004: Blacksmith_Shop_Sign_A
+    2300006: Blacksmith_Shop_Sign_B
+    2300008: Food__Shop_Sign_A
+    2300010: Food_Shop_Sign_B
+    2300012: Resource_Shop_Sign_A
+    2300014: Resource_Shop_Sign_B
+    2300016: Tavern_Sign_A
+    2300018: Tavern_Sign_B
+    2300020: Weapons_Shop_Sign_A
+    2300022: Weapons_Shop_Sign_B
+    3300000: Animal_Shop_Sign_A
+    3300002: Animal_Shop_Sign_B
+    3300004: Blacksmith_Shop_Sign_A
+    3300006: Blacksmith_Shop_Sign_B
+    3300008: Food__Shop_Sign_A
+    3300010: Food_Shop_Sign_B
+    3300012: Resource_Shop_Sign_A
+    3300014: Resource_Shop_Sign_B
+    3300016: Tavern_Sign_A
+    3300018: Tavern_Sign_B
+    3300020: Weapons_Shop_Sign_A
+    3300022: Weapons_Shop_Sign_B
+    4300000: Animal_Shop_Sign_A
+    4300002: Animal_Shop_Sign_B
+    4300004: Blacksmith_Shop_Sign_A
+    4300006: Blacksmith_Shop_Sign_B
+    4300008: Food__Shop_Sign_A
+    4300010: Food_Shop_Sign_B
+    4300012: Tavern_Sign_A
+    4300014: Tavern_Sign_B
+    4300016: Resource_Shop_Sign_A
+    4300018: Resource_Shop_Sign_B
+    4300020: Weapons_Shop_Sign_A
+    4300022: Weapons_Shop_Sign_B
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

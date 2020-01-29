@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab1d1760a7c704d45b8ca4b633fb905b, type: 3}
+  m_Name: Property Data
+  m_EditorClassIdentifier: 
+  propertyDefaultData:
+  - propertyName: Basic Materials
+    minPrice: 100
+    maxPrice: 1000
+    currentPrice: 755
+    changepriceType: 0
+    hour: 0
+    minute: 5
+    second: 0
+    percentChange: 0
+  - propertyName: Consumer Goods
+    minPrice: 50
+    maxPrice: 2000
+    currentPrice: 462
+    changepriceType: 0
+    hour: 0
+    minute: 5
+    second: 0
+    percentChange: 0
+  - propertyName: Financial
+    minPrice: 300
+    maxPrice: 2500
+    currentPrice: 564
+    changepriceType: 0
+    hour: 0
+    minute: 0
+    second: 0
+    percentChange: 0
+  - propertyName: Health Care
+    minPrice: 200
+    maxPrice: 700
+    currentPrice: 399
+    changepriceType: 0
+    hour: 0
+    minute: 5
+    second: 0
+    percentChange: 0
+  - propertyName: Services
+    minPrice: 70
+    maxPrice: 450
+    currentPrice: 108
+    changepriceType: 0
+    hour: 0
+    minute: 5
+    second: 0
+    percentChange: 0
+  - propertyName: Technology
+    minPrice: 400
+    maxPrice: 2000
+    currentPrice: 1728
+    changepriceType: 0
+    hour: 0
+    minute: 5
+    second: 0
+    percentChange: 0
+  - propertyName: Condominium
+    minPrice: 500000000
+    maxPrice: 5000000000
+    currentPrice: 1000892857
+    changepriceType: 1
+    hour: 1
+    minute: 0
+    second: 0
+    percentChange: 0.005952381
+  - propertyName: Factories
+    minPrice: 5000000
+    maxPrice: 50000000
+    currentPrice: 8785890
+    changepriceType: 0
+    hour: 1
+    minute: 0
+    second: 0
+    percentChange: 0.005952381
+  - propertyName: Grocery Shop
+    minPrice: 500000
+    maxPrice: 5000000
+    currentPrice: 1500891
+    changepriceType: 1
+    hour: 1
+    minute: 0
+    second: 0
+    percentChange: 0.005952381
+  - propertyName: Houses
+    minPrice: 80000
+    maxPrice: 4000000
+    currentPrice: 200714
+    changepriceType: 1
+    hour: 1
+    minute: 0
+    second: 0
+    percentChange: 0.005952381
+  - propertyName: Office Buildings
+    minPrice: 800000
+    maxPrice: 10000000
+    currentPrice: 3001785
+    changepriceType: 1
+    hour: 1
+    minute: 0
+    second: 0
+    percentChange: 0.005952381
+  - propertyName: Warehouses
+    minPrice: 3000000
+    maxPrice: 25000000
+    currentPrice: 10004464
+    changepriceType: 1
+    hour: 1
+    minute: 0
+    second: 0
+    percentChange: 0.005952381
+  - propertyName: Copper
+    minPrice: 100
+    maxPrice: 1000
+    currentPrice: 203
+    changepriceType: 0
+    hour: 0
+    minute: 10
+    second: 0
+    percentChange: 0
+  - propertyName: Gold
+    minPrice: 200
+    maxPrice: 1000
+    currentPrice: 123
+    changepriceType: 0
+    hour: 0
+    minute: 10
+    second: 0
+    percentChange: 0
+  - propertyName: Natural Gas
+    minPrice: 60
+    maxPrice: 600
+    currentPrice: 321
+    changepriceType: 0
+    hour: 0
+    minute: 10
+    second: 0
+    percentChange: 0
+  - propertyName: Oil
+    minPrice: 200
+    maxPrice: 600
+    currentPrice: 515
+    changepriceType: 0
+    hour: 0
+    minute: 10
+    second: 0
+    percentChange: 0
+  - propertyName: Platinum
+    minPrice: 100
+    maxPrice: 800
+    currentPrice: 663
+    changepriceType: 0
+    hour: 0
+    minute: 10
+    second: 0
+    percentChange: 0
+  - propertyName: Silver
+    minPrice: 50
+    maxPrice: 500
+    currentPrice: 470
+    changepriceType: 0
+    hour: 0
+    minute: 10
+    second: 0
+    percentChange: 0
+  - propertyName: Paintings
+    minPrice: 100000
+    maxPrice: 20000000
+    currentPrice: 1003570
+    changepriceType: 1
+    hour: 1
+    minute: 0
+    second: 0
+    percentChange: 0.005952381
+  - propertyName: Stamps
+    minPrice: 10000
+    maxPrice: 10000000
+    currentPrice: 10000
+    changepriceType: 1
+    hour: 1
+    minute: 0
+    second: 0
+    percentChange: 0.005952381
+  - propertyName: Strip Malls
+    minPrice: 4000000
+    maxPrice: 25000000
+    currentPrice: 4000000
+    changepriceType: 1
+    hour: 1
+    minute: 0
+    second: 0
+    percentChange: 0.005952381

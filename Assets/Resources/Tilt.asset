@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4905c19078137dd45bc0ea8fca82440a, type: 3}
+  m_Name: Tilt
+  m_EditorClassIdentifier: 
+  currentAcceleration: {x: -2.8e-44, y: 2.8e-44, z: -2.8e-44}
+  initialAcceleration: {x: 0, y: 0, z: 0}
+  sensitivity: 100
+  smooth: 0.4
+  speedRun: 5
+  maxSpeedRun: 5

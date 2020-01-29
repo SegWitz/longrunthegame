@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 476700ea42d6ce04082868945563f581
+timeCreated: 1479583818
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Anvil
+    100002: Anvil_Stand
+    100004: //RootNode
+    100006: Blacksmith_Props
+    100008: Blacksmith_Tool_A
+    100010: Blacksmith_Tool_B
+    100012: Blacksmith_Tool_C
+    100014: Blacksmith_Tool_D
+    100016: Tool_Hanger1
+    100018: Tool_Hanger2
+    100020: Tool_Hanger3
+    100022: Tool_Hanger4
+    100024: Weapon_Rack1
+    100026: Weapon_Rack2
+    100028: Weapon_Rack3
+    100030: Weapon_Rack4
+    400000: Anvil
+    400002: Anvil_Stand
+    400004: Blacksmith_Props
+    400006: //RootNode
+    400008: Blacksmith_Tool_A
+    400010: Blacksmith_Tool_B
+    400012: Blacksmith_Tool_C
+    400014: Blacksmith_Tool_D
+    400016: Tool_Hanger1
+    400018: Tool_Hanger2
+    400020: Tool_Hanger3
+    400022: Tool_Hanger4
+    400024: Weapon_Rack1
+    400026: Weapon_Rack2
+    400028: Weapon_Rack3
+    400030: Weapon_Rack4
+    2300000: Anvil
+    2300002: Anvil_Stand
+    2300004: Blacksmith_Tool_A
+    2300006: Blacksmith_Tool_B
+    2300008: Blacksmith_Tool_C
+    2300010: Blacksmith_Tool_D
+    2300012: Tool_Hanger1
+    2300014: Tool_Hanger2
+    2300016: Tool_Hanger3
+    2300018: Tool_Hanger4
+    2300020: Weapon_Rack1
+    2300022: Weapon_Rack2
+    2300024: Weapon_Rack3
+    2300026: Weapon_Rack4
+    3300000: Anvil
+    3300002: Anvil_Stand
+    3300004: Blacksmith_Tool_A
+    3300006: Blacksmith_Tool_B
+    3300008: Blacksmith_Tool_C
+    3300010: Blacksmith_Tool_D
+    3300012: Tool_Hanger1
+    3300014: Tool_Hanger2
+    3300016: Tool_Hanger3
+    3300018: Tool_Hanger4
+    3300020: Weapon_Rack1
+    3300022: Weapon_Rack2
+    3300024: Weapon_Rack3
+    3300026: Weapon_Rack4
+    4300000: Blacksmith_Tool_A
+    4300002: Blacksmith_Tool_B
+    4300004: Blacksmith_Tool_C
+    4300006: Blacksmith_Tool_D
+    4300008: Anvil
+    4300010: Anvil_Stand
+    4300012: Tool_Hanger1
+    4300014: Tool_Hanger2
+    4300016: Tool_Hanger3
+    4300018: Tool_Hanger4
+    4300020: Weapon_Rack1
+    4300022: Weapon_Rack2
+    4300024: Weapon_Rack3
+    4300026: Weapon_Rack4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

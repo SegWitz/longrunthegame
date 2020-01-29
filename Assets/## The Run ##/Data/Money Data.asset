@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed2358639a7bb14591117ff0129c0db, type: 3}
+  m_Name: Money Data
+  m_EditorClassIdentifier: 
+  _MoneyData:
+  - ItemID: 0
+    ItemName: 100 JGD
+    ItemSprite: {fileID: 21300000, guid: d17375181e7879e4cab13de5ef1b98f3, type: 3}
+    ItemValue: 100
+    PickupPrefab: {fileID: 1992575645744454, guid: 37dea93691448e942ae2d76a6a8ba7b9,
+      type: 2}
+  - ItemID: 1
+    ItemName: 400 JGD
+    ItemSprite: {fileID: 21300000, guid: d17375181e7879e4cab13de5ef1b98f3, type: 3}
+    ItemValue: 400
+    PickupPrefab: {fileID: 1038560270006064, guid: dbffcdf761f865144abfe3264d44060a,
+      type: 2}
+  - ItemID: 2
+    ItemName: 1000 JGD
+    ItemSprite: {fileID: 21300000, guid: d17375181e7879e4cab13de5ef1b98f3, type: 3}
+    ItemValue: 1000
+    PickupPrefab: {fileID: 1324580471722620, guid: f85ca8738b50aa747a22c678be60e071,
+      type: 2}

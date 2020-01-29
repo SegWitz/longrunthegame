@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 8233673a2ba8df24e8915870bff4a837
+timeCreated: 1479583818
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Crate_A_Closed
+    100002: Crate_A_Lid
+    100004: Crate_A_Open
+    100006: Crate_B_Closed
+    100008: Crate_B_Lid
+    100010: Crate_B_Open
+    100012: Crate_C_Closed
+    100014: Crate_C_Lid
+    100016: Crate_C_Open
+    100018: Crate_D1
+    100020: Crate_D2
+    100022: Crate_D3
+    100024: Crate_E1
+    100026: Crate_E2
+    100028: Crate_E3
+    100030: Crate_F1
+    100032: Crate_F2
+    100034: Crate_F3
+    100036: //RootNode
+    100038: Crates
+    400000: Crate_A_Closed
+    400002: Crate_A_Lid
+    400004: Crate_A_Open
+    400006: Crate_B_Closed
+    400008: Crate_B_Lid
+    400010: Crate_B_Open
+    400012: Crate_C_Closed
+    400014: Crate_C_Lid
+    400016: Crate_C_Open
+    400018: Crate_D1
+    400020: Crate_D2
+    400022: Crate_D3
+    400024: Crate_E1
+    400026: Crate_E2
+    400028: Crate_E3
+    400030: Crate_F1
+    400032: Crate_F2
+    400034: Crate_F3
+    400036: //RootNode
+    400038: Crates
+    2300000: Crate_A_Closed
+    2300002: Crate_A_Lid
+    2300004: Crate_A_Open
+    2300006: Crate_B_Closed
+    2300008: Crate_B_Lid
+    2300010: Crate_B_Open
+    2300012: Crate_C_Closed
+    2300014: Crate_C_Lid
+    2300016: Crate_C_Open
+    2300018: Crate_D1
+    2300020: Crate_D2
+    2300022: Crate_D3
+    2300024: Crate_E1
+    2300026: Crate_E2
+    2300028: Crate_E3
+    2300030: Crate_F1
+    2300032: Crate_F2
+    2300034: Crate_F3
+    3300000: Crate_A_Closed
+    3300002: Crate_A_Lid
+    3300004: Crate_A_Open
+    3300006: Crate_B_Closed
+    3300008: Crate_B_Lid
+    3300010: Crate_B_Open
+    3300012: Crate_C_Closed
+    3300014: Crate_C_Lid
+    3300016: Crate_C_Open
+    3300018: Crate_D1
+    3300020: Crate_D2
+    3300022: Crate_D3
+    3300024: Crate_E1
+    3300026: Crate_E2
+    3300028: Crate_E3
+    3300030: Crate_F1
+    3300032: Crate_F2
+    3300034: Crate_F3
+    4300000: Crate_A_Closed
+    4300002: Crate_B_Closed
+    4300004: Crate_C_Closed
+    4300006: Crate_A_Open
+    4300008: Crate_A_Lid
+    4300010: Crate_B_Open
+    4300012: Crate_B_Lid
+    4300014: Crate_C_Open
+    4300016: Crate_C_Lid
+    4300018: Crate_D1
+    4300020: Crate_D2
+    4300022: Crate_D3
+    4300024: Crate_E1
+    4300026: Crate_E2
+    4300028: Crate_E3
+    4300030: Crate_F1
+    4300032: Crate_F2
+    4300034: Crate_F3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5d1b9f296d8f247bd040565224d6a0, type: 3}
+  m_Name: Quotes Data
+  m_EditorClassIdentifier: 
+  quotes:
+  - AuthorName: Anonymous
+    QuoteText: Don't Allow Someone To Make You Feel Like You're Not Good Enough.
+  - AuthorName: Bruce Lee
+    QuoteText: Knowledge will give you power,but character respect.
+  - AuthorName: Oprah Winfrey
+    QuoteText: The more you praise and celebrate your life, the more there is in life
+      to celebrate.
+  - AuthorName: Sadhguru
+    QuoteText: Don't be dead serious about your life - it's just a play.
+  - AuthorName: APJ Abdul Kalam
+    QuoteText: 'For Great Man , Religion Is A Way Of Making Friends,
+
+      Small People Make Religion A Fighting Tool.'
+  - AuthorName: Osho
+    QuoteText: Don't Be Scared To Walk Alone and Don't Be Scare To Like It. Sometimes
+      You Have To Be Lost To Find Yourself Again.
+  - AuthorName: Osho
+    QuoteText: Truth Is Not Something Outside To Be Discovered, It Is Something Inside
+      To Be Realized.
+  - AuthorName: Bill Gates
+    QuoteText: Treatment Without Prevention Is Simply Unsustainable.
+  - AuthorName: Steve Jobs
+    QuoteText: Sometimes Life Hits You In The Head With A Brick. DON'T LOSE FAITH
+      !
+  - AuthorName: Albert Einstein
+    QuoteText: Anyone Who Has Never Made A Mistake Has Never Tried Anything New.

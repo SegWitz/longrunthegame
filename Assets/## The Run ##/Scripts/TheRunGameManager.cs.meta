@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6a865dd3b45f445448e2dba39c1ab034
+timeCreated: 1496675732
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _CrystalsData: {fileID: 11400000, guid: 1b9fecf80cf570840943f4b14e097e28, type: 2}
+  - _PerksData: {fileID: 11400000, guid: 2b856498ee4b0b348877251c9f5db252, type: 2}
+  - _PowerupsData: {fileID: 11400000, guid: 8cd938a14f424994dbf2ba3224d72379, type: 2}
+  - _TrophiesData: {fileID: 11400000, guid: cf1dfacfcc53d504daf13ea90b41931c, type: 2}
+  - _MoneyData: {fileID: 11400000, guid: 325305b1615f5594e9028e1273a007a8, type: 2}
+  - _RewardsData: {fileID: 11400000, guid: 452b5dbe922d83845bc76cb4d17be11d, type: 2}
+  - _StoreDefaultProperty: {fileID: 11400000, guid: 1038999042e8e6b4cb35c314f2767432,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

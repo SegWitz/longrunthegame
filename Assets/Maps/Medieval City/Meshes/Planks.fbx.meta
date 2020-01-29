@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: fca990272a4605f46b9d79a733279264
+timeCreated: 1479583820
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Plank_A1
+    100002: Plank_A2
+    100004: Plank_A3
+    100006: Plank_A4
+    100008: Plank_B1
+    100010: Plank_B2
+    100012: Plank_B3
+    100014: Plank_B4
+    100016: Plank_C1
+    100018: Plank_C2
+    100020: Plank_C3
+    100022: Plank_C4
+    100024: Plank_D1
+    100026: Plank_D2
+    100028: Plank_D3
+    100030: Plank_D4
+    100032: Plank_E1
+    100034: Plank_E2
+    100036: Plank_E3
+    100038: Plank_E4
+    100040: Plank_F1
+    100042: Plank_F2
+    100044: Plank_F3
+    100046: Plank_F4
+    100048: Planks
+    100050: //RootNode
+    400000: Plank_A1
+    400002: Plank_A2
+    400004: Plank_A3
+    400006: Plank_A4
+    400008: Plank_B1
+    400010: Plank_B2
+    400012: Plank_B3
+    400014: Plank_B4
+    400016: Plank_C1
+    400018: Plank_C2
+    400020: Plank_C3
+    400022: Plank_C4
+    400024: Plank_D1
+    400026: Plank_D2
+    400028: Plank_D3
+    400030: Plank_D4
+    400032: Plank_E1
+    400034: Plank_E2
+    400036: Plank_E3
+    400038: Plank_E4
+    400040: Plank_F1
+    400042: Plank_F2
+    400044: Plank_F3
+    400046: Plank_F4
+    400048: //RootNode
+    400050: Planks
+    2300000: Plank_A1
+    2300002: Plank_A2
+    2300004: Plank_A3
+    2300006: Plank_A4
+    2300008: Plank_B1
+    2300010: Plank_B2
+    2300012: Plank_B3
+    2300014: Plank_B4
+    2300016: Plank_C1
+    2300018: Plank_C2
+    2300020: Plank_C3
+    2300022: Plank_C4
+    2300024: Plank_D1
+    2300026: Plank_D2
+    2300028: Plank_D3
+    2300030: Plank_D4
+    2300032: Plank_E1
+    2300034: Plank_E2
+    2300036: Plank_E3
+    2300038: Plank_E4
+    2300040: Plank_F1
+    2300042: Plank_F2
+    2300044: Plank_F3
+    2300046: Plank_F4
+    3300000: Plank_A1
+    3300002: Plank_A2
+    3300004: Plank_A3
+    3300006: Plank_A4
+    3300008: Plank_B1
+    3300010: Plank_B2
+    3300012: Plank_B3
+    3300014: Plank_B4
+    3300016: Plank_C1
+    3300018: Plank_C2
+    3300020: Plank_C3
+    3300022: Plank_C4
+    3300024: Plank_D1
+    3300026: Plank_D2
+    3300028: Plank_D3
+    3300030: Plank_D4
+    3300032: Plank_E1
+    3300034: Plank_E2
+    3300036: Plank_E3
+    3300038: Plank_E4
+    3300040: Plank_F1
+    3300042: Plank_F2
+    3300044: Plank_F3
+    3300046: Plank_F4
+    4300000: Plank_A1
+    4300002: Plank_B1
+    4300004: Plank_C1
+    4300006: Plank_D1
+    4300008: Plank_E1
+    4300010: Plank_F1
+    4300012: Plank_A2
+    4300014: Plank_B2
+    4300016: Plank_C2
+    4300018: Plank_D2
+    4300020: Plank_E2
+    4300022: Plank_F2
+    4300024: Plank_A3
+    4300026: Plank_B3
+    4300028: Plank_C3
+    4300030: Plank_D3
+    4300032: Plank_E3
+    4300034: Plank_F3
+    4300036: Plank_A4
+    4300038: Plank_B4
+    4300040: Plank_C4
+    4300042: Plank_D4
+    4300044: Plank_E4
+    4300046: Plank_F4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

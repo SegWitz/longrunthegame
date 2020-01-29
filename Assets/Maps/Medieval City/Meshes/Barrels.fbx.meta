@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: dbb2802f0e50c5f4a949e8db761bca56
+timeCreated: 1479583819
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Barrel1
+    100002: Barrel1 1
+    100004: Barrel1 2
+    100006: Barrel2
+    100008: Barrel2 1
+    100010: Barrel2 2
+    100012: Barrel3
+    100014: Barrel3 1
+    100016: Barrel3 2
+    100018: Barrel_Ale1
+    100020: Barrel_Ale2
+    100022: Barrel_Ale3
+    100024: Barrel_Pack1
+    100026: Barrel_Pack2
+    100028: Barrel_Pack3
+    100030: Barrel_Regular1
+    100032: Barrel_Regular2
+    100034: Barrel_Regular3
+    100036: Barrel_Rum1
+    100038: Barrel_Rum2
+    100040: Barrel_Rum3
+    100042: //RootNode
+    100044: Barrels
+    100046: Rope1
+    100048: Rope1 1
+    100050: Rope1 2
+    100052: Rope2
+    100054: Rope2 1
+    100056: Rope2 2
+    400000: Barrel1
+    400002: Barrel1 1
+    400004: Barrel1 2
+    400006: Barrel2
+    400008: Barrel2 1
+    400010: Barrel2 2
+    400012: Barrel3
+    400014: Barrel3 1
+    400016: Barrel3 2
+    400018: Barrel_Ale1
+    400020: Barrel_Ale2
+    400022: Barrel_Ale3
+    400024: Barrel_Pack1
+    400026: Barrel_Pack2
+    400028: Barrel_Pack3
+    400030: Barrel_Regular1
+    400032: Barrel_Regular2
+    400034: Barrel_Regular3
+    400036: Barrel_Rum1
+    400038: Barrel_Rum2
+    400040: Barrel_Rum3
+    400042: Barrels
+    400044: //RootNode
+    400046: Rope1
+    400048: Rope1 1
+    400050: Rope1 2
+    400052: Rope2
+    400054: Rope2 1
+    400056: Rope2 2
+    2300000: Barrel1
+    2300002: Barrel1 1
+    2300004: Barrel1 2
+    2300006: Barrel2
+    2300008: Barrel2 1
+    2300010: Barrel2 2
+    2300012: Barrel3
+    2300014: Barrel3 1
+    2300016: Barrel3 2
+    2300018: Barrel_Ale1
+    2300020: Barrel_Ale2
+    2300022: Barrel_Ale3
+    2300024: Barrel_Regular1
+    2300026: Barrel_Regular2
+    2300028: Barrel_Regular3
+    2300030: Barrel_Rum1
+    2300032: Barrel_Rum2
+    2300034: Barrel_Rum3
+    2300036: Rope1
+    2300038: Rope1 1
+    2300040: Rope1 2
+    2300042: Rope2
+    2300044: Rope2 1
+    2300046: Rope2 2
+    3300000: Barrel1
+    3300002: Barrel1 1
+    3300004: Barrel1 2
+    3300006: Barrel2
+    3300008: Barrel2 1
+    3300010: Barrel2 2
+    3300012: Barrel3
+    3300014: Barrel3 1
+    3300016: Barrel3 2
+    3300018: Barrel_Ale1
+    3300020: Barrel_Ale2
+    3300022: Barrel_Ale3
+    3300024: Barrel_Regular1
+    3300026: Barrel_Regular2
+    3300028: Barrel_Regular3
+    3300030: Barrel_Rum1
+    3300032: Barrel_Rum2
+    3300034: Barrel_Rum3
+    3300036: Rope1
+    3300038: Rope1 1
+    3300040: Rope1 2
+    3300042: Rope2
+    3300044: Rope2 1
+    3300046: Rope2 2
+    4300000: Barrel_Regular1
+    4300002: Barrel_Regular2
+    4300004: Barrel_Regular3
+    4300006: Barrel_Ale1
+    4300008: Barrel_Ale2
+    4300010: Barrel_Ale3
+    4300012: Barrel_Rum1
+    4300014: Barrel_Rum2
+    4300016: Barrel_Rum3
+    4300018: Barrel1
+    4300020: Barrel2
+    4300022: Barrel3
+    4300024: Rope1
+    4300026: Rope2
+    4300028: Barrel1
+    4300030: Barrel2
+    4300032: Barrel3
+    4300034: Rope1
+    4300036: Rope2
+    4300038: Barrel1
+    4300040: Barrel2
+    4300042: Barrel3
+    4300044: Rope1
+    4300046: Rope2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

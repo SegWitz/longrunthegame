@@ -1,0 +1,527 @@
+﻿using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+// this is the master game script, attached to th ebow
+namespace BowAndArrow
+{
+	public class bowAndArrow : MonoBehaviour
+	{
+
+		// to determine the mouse position, we need a raycast
+		private Ray mouseRay1;
+		private RaycastHit rayHit;
+		// position of the raycast on the screen
+		private float posX;
+		private float posY;
+
+		// References to the gameobjects / prefabs
+		public GameObject bowString;
+		GameObject arrow;
+		public GameObject arrowPrefab;
+		public GameObject gameManager;
+		public GameObject risingText;
+		public GameObject target;
+		public Material StringMaterial;
+
+		// Sound effects
+		public AudioClip stringPull;
+		public AudioClip stringRelease;
+		public AudioClip arrowSwoosh;
+
+		// has sound already be played
+		bool stringPullSoundPlayed;
+		bool stringReleaseSoundPlayed;
+		bool arrowSwooshSoundPlayed;
+
+		// the bowstring is a line renderer
+		private List<Vector3> bowStringPosition;
+		LineRenderer bowStringLinerenderer;
+
+		// to determine the string pullout
+		float arrowStartX;
+		float length;
+
+		// some status vars
+		bool arrowShot;
+		bool arrowPrepared;
+
+		// position of the line renderers middle part 
+		Vector3 stringPullout;
+		Vector3 stringRestPosition = new Vector3(-0.44f, -0.06f, STRING_DEPTH);
+
+		// game states
+		public enum GameStates
+		{
+			menu,
+			instructions,
+			game,
+			over,
+			hiscore,
+		};
+
+		// store the actual game state
+		public GameStates gameState = GameStates.menu;
+
+		// references to main objects for the UI screens
+		public GameObject menuGO;
+		public GameObject instructionsGO;
+		public GameObject highscoreGO;
+		public GameObject gameGO;
+		public GameObject gameOverGO;
+
+		// referene to the text fields of game UI
+		public Text arrowText;
+		public Text scoreText;
+		public Text endscoreText;
+		public Text actualHighscoreText;
+		public Text newHighscoreText;
+		public Text newHighText;
+
+		[Header("Trophy Window")]
+		[SerializeField]
+		GameObject TrophyWindow = null;
+		[SerializeField] Image TrophyRewardImage = null;
+
+		int arrows = 20;
+		int score = 0;
+
+		const float STRING_DEPTH = 0.1f;
+
+
+		//
+		// void resetGame()
+		//
+		// this method resets the game status
+		//
+
+		void resetGame()
+		{
+			arrows = 20;
+			score = 0;
+			// be sure that there is only one arrow in the game
+			if (GameObject.Find("arrow") == null)
+				createArrow(true);
+		}
+
+
+		// Use this for initialization
+		void Start()
+		{
+			// set the UI screens
+			menuGO.SetActive(true);
+			instructionsGO.SetActive(false);
+			highscoreGO.SetActive(false);
+			gameGO.SetActive(false);
+			gameOverGO.SetActive(false);
+
+			// create an arrow to shoot
+			// use true to set the target
+			createArrow(true);
+
+			// setup the line renderer representing the bowstring
+			bowStringLinerenderer = bowString.AddComponent<LineRenderer>();
+			bowStringLinerenderer.positionCount = 3;
+			bowStringLinerenderer.startWidth = 0.05f;
+			bowStringLinerenderer.endWidth = 0.05f;
+			bowStringLinerenderer.useWorldSpace = false;
+			bowStringLinerenderer.material = StringMaterial;
+			bowStringPosition = new List<Vector3>();
+			bowStringPosition.Add(new Vector3(-0.44f, 1.43f, STRING_DEPTH));
+			bowStringPosition.Add(new Vector3(-0.44f, -0.06f, STRING_DEPTH));
+			bowStringPosition.Add(new Vector3(-0.43f, -1.32f, STRING_DEPTH));
+			bowStringLinerenderer.SetPosition(0, bowStringPosition[0]);
+			bowStringLinerenderer.SetPosition(1, bowStringPosition[1]);
+			bowStringLinerenderer.SetPosition(2, bowStringPosition[2]);
+			arrowStartX = 0.7f;
+
+			stringPullout = stringRestPosition;
+		}
+
+
+
+		// Update is called once per frame
+		void Update()
+		{
+			// check the game states
+			switch (gameState)
+			{
+				case GameStates.menu:
+
+					if (Input.GetKeyDown(KeyCode.Escape))
+					{
+						BackToMenu();
+					}
+
+					break;
+
+				case GameStates.game:
+
+					showArrows();
+					showScore();
+
+					// return to main menu when back key is pressed (android)
+					if (Input.GetKeyDown(KeyCode.Escape))
+					{
+						showMenu();
+					}
+
+					// game is steered via mouse
+					// (also works with touch on android)
+					if (Input.GetMouseButton(0))
+					{
+						// the player pulls the string
+						if (!stringPullSoundPlayed)
+						{
+							// play sound
+							GetComponent<AudioSource>().PlayOneShot(stringPull);
+							stringPullSoundPlayed = true;
+						}
+						// detrmine the pullout and set up the arrow
+						prepareArrow();
+					}
+
+					// ok, player released the mouse
+					// (player released the touch on android)
+					if (Input.GetMouseButtonUp(0) && arrowPrepared)
+					{
+						// play string sound
+						if (!stringReleaseSoundPlayed)
+						{
+							GetComponent<AudioSource>().PlayOneShot(stringRelease);
+							stringReleaseSoundPlayed = true;
+						}
+						// play arrow sound
+						if (!arrowSwooshSoundPlayed)
+						{
+							GetComponent<AudioSource>().PlayOneShot(arrowSwoosh);
+							arrowSwooshSoundPlayed = true;
+						}
+						// shot the arrow (rigid body physics)
+						shootArrow();
+					}
+					// in any case: update the bowstring line renderer
+					drawBowString();
+					break;
+				case GameStates.instructions:
+					break;
+				case GameStates.over:
+					break;
+				case GameStates.hiscore:
+					break;
+			}
+		}
+
+
+		//
+		// public void initScore()
+		//
+		// The player score is stored via Playerprefs
+		// to make sure they can be stored,
+		// they have to be initialized at first
+		//
+
+		public void showScore()
+		{
+			scoreText.text = "Score: " + score.ToString();
+		}
+
+
+		public void showArrows()
+		{
+			arrowText.text = "Arrows: " + arrows.ToString();
+		}
+
+
+		//
+		// public void createArrow()
+		//
+		// this method creates a new arrow based on the prefab
+		//
+
+		public void createArrow(bool hitTarget)
+		{
+			Camera.main.GetComponent<camMovement>().resetCamera();
+			// when a new arrow is created means that:
+			// sounds has been played
+			stringPullSoundPlayed = false;
+			stringReleaseSoundPlayed = false;
+			arrowSwooshSoundPlayed = false;
+			// does the player has an arrow left ?
+			if (arrows > 0)
+			{
+				// may target's position be altered?
+				if (hitTarget)
+				{
+					// if the player hit the target with the last arrow, 
+					// it's set to a new random position
+					float x = Random.Range(-1f, 8f);
+					float y = Random.Range(-3f, 3f);
+					Vector3 position = target.transform.position;
+					position.x = x;
+					position.y = y;
+					target.transform.position = position;
+				}
+				// now instantiate a new arrow
+				this.transform.localRotation = Quaternion.identity;
+				arrow = Instantiate(arrowPrefab, Vector3.zero, Quaternion.identity) as GameObject;
+				arrow.name = "arrow";
+				arrow.transform.localScale = this.transform.localScale;
+				arrow.transform.localPosition = this.transform.position + new Vector3(0.7f, 0, 0);
+				arrow.transform.localRotation = this.transform.localRotation;
+				arrow.transform.parent = this.transform;
+				// transmit a reference to the arrow script
+				arrow.GetComponent<Arrow>().setBow(this);
+				arrowShot = false;
+				arrowPrepared = false;
+				// subtract one arrow
+				arrows--;
+			}
+			else
+			{
+				// no arrow is left,
+				// so the game is over
+				gameState = GameStates.over;
+				ShowResultsScreen();
+			}
+		}
+
+
+		//
+		// public void shootArrow()
+		//
+		// Player released the arrow
+		// get the bows rotationn and accelerate the arrow
+		//
+
+		public void shootArrow()
+		{
+			if (arrow.GetComponent<Rigidbody2D>() == null)
+			{
+				arrowShot = true;
+				arrow.AddComponent<Rigidbody2D>();
+				arrow.transform.parent = gameManager.transform;
+				arrow.GetComponent<Rigidbody2D>().AddForce(Quaternion.Euler(new Vector3(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z)) * new Vector3(25f * length, 0, 0), ForceMode2D.Impulse);
+			}
+			arrowPrepared = false;
+			stringPullout = stringRestPosition;
+
+			// Cam
+			Camera.main.GetComponent<camMovement>().resetCamera();
+			Camera.main.GetComponent<camMovement>().setArrow(arrow);
+
+		}
+
+
+		// 
+		// public void prepareArrow()
+		//
+		// Player pulls out the string
+		//
+
+		public void prepareArrow()
+		{
+			// get the touch point on the screen
+			mouseRay1 = Camera.main.ScreenPointToRay(Input.mousePosition);
+			if (Physics.Raycast(mouseRay1, out rayHit, 1000f) && arrowShot == false)
+			{
+				// determine the position on the screen
+				posX = rayHit.point.x;
+				posY = rayHit.point.y;
+				// set the bows angle to the arrow
+				Vector2 mousePos = new Vector2(transform.position.x - posX, transform.position.y - posY);
+				float angleZ = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
+				transform.eulerAngles = new Vector3(0, 0, angleZ);
+				// determine the arrow pullout
+				length = mousePos.magnitude / 3f;
+				length = Mathf.Clamp(length, 0, 1);
+				// set the bowstrings line renderer
+				stringPullout = new Vector3(-(0.44f + length), -0.06f, STRING_DEPTH);
+				// set the arrows position
+				Vector3 arrowPosition = arrow.transform.localPosition;
+				arrowPosition.x = (arrowStartX - length);
+				arrow.transform.localPosition = arrowPosition;
+			}
+			arrowPrepared = true;
+		}
+
+
+
+		//
+		// public void drawBowString()
+		//
+		// set the bowstrings line renderer position
+		//
+
+		public void drawBowString()
+		{
+			bowStringLinerenderer = bowString.GetComponent<LineRenderer>();
+			bowStringLinerenderer.SetPosition(0, bowStringPosition[0]);
+			bowStringLinerenderer.SetPosition(1, stringPullout);
+			bowStringLinerenderer.SetPosition(2, bowStringPosition[2]);
+		}
+
+
+		//
+		// public void setPoints()
+		//
+		// This method is called from the arrow script
+		// and sets the points
+		// and: if the player hit the bull's eye, 
+		// he receives a bonus arrow
+		//
+
+		public void setPoints(int points)
+		{
+			score += points;
+			if (points == 50)
+			{
+				arrows++;
+				GameObject rt1 = (GameObject)Instantiate(risingText, new Vector3(0, 0, 0), Quaternion.identity);
+				rt1.transform.position = this.transform.position + new Vector3(0, 0, 0);
+				rt1.transform.name = "rt1";
+				// each target's "ring" is 0.07f wide
+				// so it's relatively simple to calculate the ring hit (thus the score)
+				rt1.GetComponent<TextMesh>().text = "Bonus arrow";
+			}
+		}
+
+
+		//
+		// Event functions triggered by UI buttons
+		//
+
+
+		// 
+		// public void showInstructions()
+		//
+		// this method shows the instructions screen
+		// can be triggered by main menu 
+		//
+
+		public void showInstructions()
+		{
+			menuGO.SetActive(false);
+			instructionsGO.SetActive(true);
+		}
+
+
+		// 
+		// public void hideInstructions()
+		//
+		// this method hides the instructions screen
+		// and returns the player to main menu 
+		//
+
+		public void hideInstructions()
+		{
+			menuGO.SetActive(true);
+			instructionsGO.SetActive(false);
+		}
+
+		// 
+		// public void startGame()
+		//
+		// this method starts the game
+		// can be triggered by main menu 
+		//
+
+		public void startGame()
+		{
+			InitializeBetManager();
+
+			menuGO.SetActive(false);
+			instructionsGO.SetActive(false);
+			highscoreGO.SetActive(false);
+			gameGO.SetActive(true);
+			gameState = GameStates.game;
+		}
+
+		public void showMenu()
+		{
+			menuGO.SetActive(true);
+			gameState = GameStates.menu;
+			resetGame();
+		}
+
+		#region Bet Management
+
+		//bool HasPlacedBet;
+
+		void InitializeBetManager()
+		{
+			//HasPlacedBet = false;
+			TheRunGameManager.Instance.GameData.Data.Profile.SubtractMoney(TheRunGameManager.Instance.BetAmount);
+			TheRunGameManager.Instance.GameData.Save();
+		}
+
+		void ShowResultsScreen()
+		{
+			if (score >= 3000)
+			{
+				long Amount = TheRunGameManager.Instance.BetAmount * 4;
+				TheRunGameManager.Instance.GameData.Data.Profile.AddMoney(Amount);
+				TheRunGameManager.Instance.GameData.Save();
+				endscoreText.text = string.Format("You shot all the arrows and\nscored {0} points.\n\nYou have won the bet! You have earned:\n\n<size=25>{1}</size>", score, Amount);
+			}
+			else if (score >= 2500)
+			{
+				long Amount = TheRunGameManager.Instance.BetAmount * 3;
+				TheRunGameManager.Instance.GameData.Data.Profile.AddMoney(Amount);
+				TheRunGameManager.Instance.GameData.Save();
+				endscoreText.text = string.Format("You shot all the arrows and\nscored {0} points.\n\nYou have won the bet! You have earned:\n\n<size=25>{1}</size>", score, Amount);
+			}
+			else if (score >= 2000)
+			{
+				long Amount = TheRunGameManager.Instance.BetAmount * 2;
+				TheRunGameManager.Instance.GameData.Data.Profile.AddMoney(Amount);
+				TheRunGameManager.Instance.GameData.Save();
+				endscoreText.text = string.Format("You shot all the arrows and\nscored {0} points.\n\nYou have won the bet! You have earned:\n\n<size=25>{1}</size>", score, Amount);
+			}
+			else
+			{
+				endscoreText.text = string.Format("You shot all the arrows and\nscored {0} points.\n\nYou have lost the bet... Please try again!", score);
+			}
+
+			gameOverGO.SetActive(true);
+		}
+
+		public void CloseResultsScreen()
+		{
+			if (score >= 3000)
+			{
+				ShowTrophyWindow();
+			}
+			else
+			{
+				BackToMenu();
+			}
+		}
+
+		void BackToMenu()
+		{
+			Loading.LoadScene("Main Menu");
+		}
+
+		#endregion
+
+		#region Rewards
+
+		void ShowTrophyWindow()
+		{
+			TrophyRewardImage.sprite = TheRunGameManager.Instance.TrophiesData.Data[5].ItemSprite;
+			TheRunGameManager.Instance.GameData.Data.Profile.TrophiesQuantities[5]++;
+			TheRunGameManager.Instance.GameData.Save();
+
+			TrophyWindow.SetActive(true);
+		}
+
+		public void CloseTrophyWindow()
+		{
+			TrophyWindow.SetActive(false);
+			BackToMenu();
+		}
+
+		#endregion
+	}
+}

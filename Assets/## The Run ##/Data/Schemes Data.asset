@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83b2db995d85da429ca376e7a36fab8, type: 3}
+  m_Name: Schemes Data
+  m_EditorClassIdentifier: 
+  _SchemesData:
+  - SchemeName: Small Cap Scheme
+    Roi1Day: 10
+    Roi3Days: 40
+    Roi6Days: 100
+    Roi14Days: 200
+    InvestmentRisk: 5
+  - SchemeName: Growth Scheme
+    Roi1Day: 5
+    Roi3Days: 7
+    Roi6Days: 10
+    Roi14Days: 60
+    InvestmentRisk: 2
+  - SchemeName: Balanced Scheme
+    Roi1Day: 10
+    Roi3Days: 11
+    Roi6Days: 17
+    Roi14Days: 62
+    InvestmentRisk: 2
+  - SchemeName: Dynamic Scheme
+    Roi1Day: 12
+    Roi3Days: 13
+    Roi6Days: 38
+    Roi14Days: 96
+    InvestmentRisk: 4
+  - SchemeName: Bond Scheme
+    Roi1Day: 3
+    Roi3Days: 4
+    Roi6Days: 22
+    Roi14Days: 31
+    InvestmentRisk: 1
+  - SchemeName: Cash Scheme
+    Roi1Day: 2
+    Roi3Days: 3
+    Roi6Days: 10
+    Roi14Days: 17
+    InvestmentRisk: 0
+  - SchemeName: Global Scheme
+    Roi1Day: 100
+    Roi3Days: 170
+    Roi6Days: 200
+    Roi14Days: 380
+    InvestmentRisk: 5
+  - SchemeName: Equity Fund Scheme
+    Roi1Day: 9
+    Roi3Days: 12
+    Roi6Days: 29
+    Roi14Days: 74
+    InvestmentRisk: 3
+  - SchemeName: Global Leaders Scheme
+    Roi1Day: 20
+    Roi3Days: 39
+    Roi6Days: 48
+    Roi14Days: 97
+    InvestmentRisk: 4
+  - SchemeName: Institutional Income Scheme
+    Roi1Day: 1
+    Roi3Days: 2
+    Roi6Days: 6
+    Roi14Days: 10
+    InvestmentRisk: 0
+  _RisksData:
+  - Probability: 14.286
+  - Probability: 28.571
+  - Probability: 42.857
+  - Probability: 57.143
+  - Probability: 71.428
+  - Probability: 85.714

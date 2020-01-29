@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42ec9d840482a64f9b56c4d603ceccd, type: 3}
+  m_Name: Trophies Data
+  m_EditorClassIdentifier: 
+  _TrophiesData:
+  - ItemID: 0
+    ItemName: Trophy 1
+    ItemSprite: {fileID: 21300000, guid: eaac99eb308fe66419440b7915f0c9e4, type: 3}
+  - ItemID: 1
+    ItemName: Trophy 2
+    ItemSprite: {fileID: 21300000, guid: 6e7a5bbab448ac0458da1d9c21253ec2, type: 3}
+  - ItemID: 2
+    ItemName: Trophy 3
+    ItemSprite: {fileID: 21300000, guid: 2e033be15f9fae34b940b7fcad728160, type: 3}
+  - ItemID: 3
+    ItemName: Trophy 4
+    ItemSprite: {fileID: 21300000, guid: 98c2a52fba5a85444adb612a7d2805c9, type: 3}
+  - ItemID: 4
+    ItemName: Trophy 5
+    ItemSprite: {fileID: 21300000, guid: 1fa280c69188c304593df1053cb707a7, type: 3}
+  - ItemID: 5
+    ItemName: Trophy 6
+    ItemSprite: {fileID: 21300000, guid: cb28c282748b7bf4f90ef6a4ca5eeee2, type: 3}
+  - ItemID: 6
+    ItemName: Trophy 7
+    ItemSprite: {fileID: 21300000, guid: 8e86fad8c1c751d48bb6041fb3dc9625, type: 3}
+  - ItemID: 7
+    ItemName: Trophy 8
+    ItemSprite: {fileID: 21300000, guid: b66e7021a118a7c43aa46850685f05d8, type: 3}

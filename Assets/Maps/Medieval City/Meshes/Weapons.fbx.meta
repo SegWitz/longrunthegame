@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 2c4e881464c09af4d8e1a08e94da14a0
+timeCreated: 1479583817
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Shield_A1
+    100002: Shield_A2
+    100004: Shield_A3
+    100006: Shield_A4
+    100008: Shield_B1
+    100010: Shield_B2
+    100012: Shield_B3
+    100014: Shield_B4
+    100016: Sword_A1
+    100018: Sword_A2
+    100020: Sword_A3
+    100022: Sword_A4
+    100024: Sword_B1
+    100026: Sword_B2
+    100028: Sword_B3
+    100030: Sword_B4
+    100032: //RootNode
+    100034: Weapons
+    400000: Shield_A1
+    400002: Shield_A2
+    400004: Shield_A3
+    400006: Shield_A4
+    400008: Shield_B1
+    400010: Shield_B2
+    400012: Shield_B3
+    400014: Shield_B4
+    400016: Sword_A1
+    400018: Sword_A2
+    400020: Sword_A3
+    400022: Sword_A4
+    400024: Sword_B1
+    400026: Sword_B2
+    400028: Sword_B3
+    400030: Sword_B4
+    400032: Weapons
+    400034: //RootNode
+    2300000: Shield_A1
+    2300002: Shield_A2
+    2300004: Shield_A3
+    2300006: Shield_A4
+    2300008: Shield_B1
+    2300010: Shield_B2
+    2300012: Shield_B3
+    2300014: Shield_B4
+    2300016: Sword_A1
+    2300018: Sword_A2
+    2300020: Sword_A3
+    2300022: Sword_A4
+    2300024: Sword_B1
+    2300026: Sword_B2
+    2300028: Sword_B3
+    2300030: Sword_B4
+    3300000: Shield_A1
+    3300002: Shield_A2
+    3300004: Shield_A3
+    3300006: Shield_A4
+    3300008: Shield_B1
+    3300010: Shield_B2
+    3300012: Shield_B3
+    3300014: Shield_B4
+    3300016: Sword_A1
+    3300018: Sword_A2
+    3300020: Sword_A3
+    3300022: Sword_A4
+    3300024: Sword_B1
+    3300026: Sword_B2
+    3300028: Sword_B3
+    3300030: Sword_B4
+    4300000: Sword_A1
+    4300002: Sword_A2
+    4300004: Sword_A3
+    4300006: Sword_A4
+    4300008: Sword_B1
+    4300010: Sword_B2
+    4300012: Sword_B3
+    4300014: Sword_B4
+    4300016: Shield_A1
+    4300018: Shield_A2
+    4300020: Shield_A3
+    4300022: Shield_A4
+    4300024: Shield_B1
+    4300026: Shield_B2
+    4300028: Shield_B3
+    4300030: Shield_B4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

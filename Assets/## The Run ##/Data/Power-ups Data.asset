@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1c87896fb3bd14eb6326d7b283a051, type: 3}
+  m_Name: Power-ups Data
+  m_EditorClassIdentifier: 
+  _PowerupsData:
+  - ItemID: 0
+    ItemName: Time Extender
+    ItemSprite: {fileID: 21300000, guid: 52b16255193eb314b85ad72f3516d5b0, type: 3}
+    PickupPrefab: {fileID: 1256149961933124, guid: 9291a31133deb1247b4ba02338d36af6,
+      type: 2}
+  - ItemID: 1
+    ItemName: Magnet
+    ItemSprite: {fileID: 21300000, guid: 9f40c2d7192ef4c4988681b12706142e, type: 3}
+    PickupPrefab: {fileID: 1762239248412242, guid: 388094c0e07d65b47bd8d4f38a275217,
+      type: 2}
+  - ItemID: 2
+    ItemName: Purple Heart
+    ItemSprite: {fileID: 21300000, guid: f732afd5331328a449443568f7f0430f, type: 3}
+    PickupPrefab: {fileID: 1129333902623884, guid: 71991329cfac0f2438da050aaf38399d,
+      type: 2}
+  - ItemID: 3
+    ItemName: Purple Poison
+    ItemSprite: {fileID: 21300000, guid: 5ee198821ee98254aa946de8bddbbe2a, type: 3}
+    PickupPrefab: {fileID: 1025480143114602, guid: ded2f613bb7dfe54bad0515b70808a99,
+      type: 2}
+  - ItemID: 4
+    ItemName: Red Bomb
+    ItemSprite: {fileID: 21300000, guid: 7e41e9062dd3008469d747f4d90614c3, type: 3}
+    PickupPrefab: {fileID: 1487049317391408, guid: 8659269334c27de4485b592561d3f71e,
+      type: 2}
+  - ItemID: 5
+    ItemName: Red Medipack
+    ItemSprite: {fileID: 21300000, guid: 1686d73c05999284aa1a106fc7743d68, type: 3}
+    PickupPrefab: {fileID: 1779028286094918, guid: 15b6ab8883620094bb57f634b4bf235e,
+      type: 2}
+  - ItemID: 6
+    ItemName: Red Skull
+    ItemSprite: {fileID: 21300000, guid: f03f410396489994da3f6b37e9f7dddd, type: 3}
+    PickupPrefab: {fileID: 1944063584352918, guid: bc687ecd12ef2cb4a80b6e55b7feb643,
+      type: 2}
+  - ItemID: 7
+    ItemName: Red Star
+    ItemSprite: {fileID: 21300000, guid: b3800e23e4b16974e98e2f51653f8970, type: 3}
+    PickupPrefab: {fileID: 1701712035716008, guid: ab0181b7b5653ed45818b7feb7d16b89,
+      type: 2}
+  - ItemID: 8
+    ItemName: Shield
+    ItemSprite: {fileID: 21300000, guid: 6465ac8250a6bf64a9032f612cb4dd97, type: 3}
+    PickupPrefab: {fileID: 0}
